@@ -1,0 +1,145 @@
+{
+  "_note": "Structured copy of your_resume.pdf. The tailoring engine may only REORDER and SELECT from this content; it never adds to it. Edit here (not in code) if your real resume changes. tests/test_resume_builder.py checks every line below against the original PDF.",
+  "name": "Your Name",
+  "headline": "Python Backend Developer | Immediate Joiner",
+  "contact": {
+    "phone": "+910000000000",
+    "email": "you@example.com",
+    "location": "Pune, Maharashtra",
+    "linkedin": "linkedin.com/in/your-profile",
+    "github": "https://github.com/your-username"
+  },
+  "summary_lead": "Python Backend Developer (3.5+ years)",
+  "summary_highlights": [
+    {"text": "shipped a production-grade RAG/GenAI microservice (FastAPI, OpenAI APIs, ChromaDB, LangChain, LangGraph)", "tags": ["rag", "genai", "llm", "langchain", "langgraph", "openai", "chromadb", "fastapi"]},
+    {"text": "consolidated 40+ legacy automation services into a unified FastAPI platform", "tags": ["fastapi", "microservices", "automation", "docker"]},
+    {"text": "optimized PostgreSQL batch processing for 90M+ records", "tags": ["postgresql", "sql", "etl"]},
+    {"text": "built Kafka-driven multi-channel notification pipelines", "tags": ["kafka", "microservices", "messaging"]}
+  ],
+  "summary_tail": "Open to Pune, Mumbai, Bangalore, Hyderabad, Chennai, Gurgaon/Noida, and remote roles.",
+  "skills": [
+    {"category": "Programming", "items": [
+      {"text": "Python", "tags": ["python"]},
+      {"text": "Object-Oriented Programming (OOP)", "tags": ["oop"]},
+      {"text": "SQL", "tags": ["sql"]}]},
+    {"category": "Backend & APIs", "items": [
+      {"text": "FastAPI", "tags": ["fastapi"]},
+      {"text": "Django", "tags": ["django"]},
+      {"text": "RESTful APIs", "tags": ["rest"]},
+      {"text": "Pydantic", "tags": ["pydantic"]},
+      {"text": "OpenAPI (Swagger)", "tags": ["openapi"]},
+      {"text": "Microservices Architecture", "tags": ["microservices"]}]},
+    {"category": "AI / GenAI", "items": [
+      {"text": "Retrieval-Augmented Generation (RAG)", "tags": ["rag"]},
+      {"text": "LLMs", "tags": ["llm", "genai"]},
+      {"text": "OpenAI APIs (Embeddings & Chat)", "tags": ["openai"]},
+      {"text": "ChromaDB", "tags": ["chromadb", "vector"]},
+      {"text": "Vector Search", "tags": ["vector"]},
+      {"text": "LangChain", "tags": ["langchain"]},
+      {"text": "LangGraph", "tags": ["langgraph"]},
+      {"text": "Agentic AI", "tags": ["agentic"]},
+      {"text": "Prompt Engineering", "tags": ["prompt"]},
+      {"text": "NLP", "tags": ["nlp"]}]},
+    {"category": "Databases", "items": [
+      {"text": "PostgreSQL (Batch Ingestion & Optimization)", "tags": ["postgresql"]},
+      {"text": "MySQL", "tags": ["mysql"]},
+      {"text": "MongoDB", "tags": ["mongodb"]},
+      {"text": "SQLAlchemy", "tags": ["sqlalchemy"]},
+      {"text": "Pandas", "tags": ["pandas"]},
+      {"text": "NumPy", "tags": ["numpy"]}]},
+    {"category": "Messaging & Caching", "items": [
+      {"text": "Apache Kafka (Event Streams, Retry Handling)", "tags": ["kafka"]},
+      {"text": "Redis (Basics)", "tags": ["redis"]}]},
+    {"category": "DevOps & Cloud", "items": [
+      {"text": "Docker (Multi-stage builds)", "tags": ["docker"]},
+      {"text": "Docker Compose", "tags": ["docker"]},
+      {"text": "Kubernetes (Basics)", "tags": ["kubernetes"]},
+      {"text": "CI/CD", "tags": ["cicd"]},
+      {"text": "Azure DevOps", "tags": ["azure", "cicd"]},
+      {"text": "AWS Lambda", "tags": ["aws"]},
+      {"text": "Linux", "tags": ["linux"]}]},
+    {"category": "Testing", "items": [
+      {"text": "PyTest", "tags": ["pytest", "testing"]},
+      {"text": "Unit Testing", "tags": ["testing"]},
+      {"text": "Mocking", "tags": ["testing"]},
+      {"text": "API Automation", "tags": ["automation", "rest"]},
+      {"text": "Selenium", "tags": ["selenium", "automation"]},
+      {"text": "Postman", "tags": ["postman"]},
+      {"text": "JIRA", "tags": ["jira"]}]}
+  ],
+  "experience": [
+    {
+      "title": "Associate Software Engineer (Python Developer)",
+      "dates": "Jan 2025 – Sep 2026",
+      "company": "GoDigit General Insurance Ltd.",
+      "location": "Pune, India",
+      "bullets": [
+        {"text": "Consolidated 40+ standalone automation bots into a centralized FastAPI microservice architecture, eliminating duplicate compute infrastructure and reducing deployment overhead across the team.", "tags": ["fastapi", "microservices", "automation"]},
+        {"text": "Designed and deployed FastAPI-based REST APIs to automate core insurance workflows, reducing manual processing turnaround time.", "tags": ["fastapi", "rest", "automation"]},
+        {"text": "Built real-time automation pipelines for continuous data ingestion, removing batch-processing delays from downstream operations.", "tags": ["automation", "etl"]},
+        {"text": "Developed Apache Kafka-integrated notification microservices delivering multi-channel alerts (Email, SMS, WhatsApp) to hundreds of recipients daily with automated retry mechanisms.", "tags": ["kafka", "microservices", "messaging"]},
+        {"text": "Optimized PostgreSQL batch-insertion logic and queries to process and load 90+ million records for high-volume backend operations.", "tags": ["postgresql", "sql", "etl"]},
+        {"text": "Containerized backend services using Docker, standardizing environment parity and release cycles via Azure DevOps CI/CD.", "tags": ["docker", "azure", "cicd"]},
+        {"text": "Developed resilient Selenium-based data extraction modules with automated error handling and session recovery.", "tags": ["selenium", "automation"]},
+        {"text": "Owned end-to-end deployments, bug fixes, and monitoring for production applications using Git, Linux, and JIRA.", "tags": ["linux", "git", "jira"]}
+      ],
+      "technologies": "Python, FastAPI, PostgreSQL, Docker, Kafka, Selenium, Azure DevOps, Git, JIRA, Linux"
+    },
+    {
+      "title": "Associate Software Engineer (Python Developer)",
+      "dates": "Feb 2023 – Aug 2024",
+      "company": "Setoo Solutions Pvt. Ltd.",
+      "location": "Pune, India",
+      "subheading": "Client: QBE Insurance Group",
+      "bullets": [
+        {"text": "Developed Python backend services implementing insurance premium calculation engines and automated policy-processing workflows.", "tags": ["python", "automation"]},
+        {"text": "Built data transformation modules using Pandas and NumPy to execute actuarial calculations and underwriting rules.", "tags": ["pandas", "numpy"]},
+        {"text": "Authored automated unit test suites with PyTest, boosting application reliability across multi-stage CI/CD release cycles.", "tags": ["pytest", "testing", "cicd"]},
+        {"text": "Collaborated directly with UK-based technical stakeholders to scope API schemas and backend deliverables.", "tags": ["rest"]}
+      ],
+      "extra_sections": [
+        {"subheading": "Project: Metafit", "bullets": [
+          {"text": "Developed full-stack modules using Python and Django, configuring relational database models and core business logic.", "tags": ["django", "python", "sql"]},
+          {"text": "Integrated responsive frontend interfaces using HTML, CSS, and Bootstrap with Django templates.", "tags": ["django", "frontend"]},
+          {"text": "Executed peer code reviews, documentation, bug fixes, and continuous performance tuning in an Agile setting.", "tags": ["agile"]}]}
+      ],
+      "technologies": "Python, Django, FastAPI, Pandas, NumPy, PyTest, SQL, HTML, CSS, Bootstrap, CI/CD"
+    },
+    {
+      "title": "Software Engineer Intern (Python Developer)",
+      "dates": "Nov 2022 – Jan 2023",
+      "company": "Geexu Technology LLP",
+      "location": "Pune, India",
+      "bullets": [
+        {"text": "Built backend modules in Python and resolved application defects under senior developer guidance.", "tags": ["python"]},
+        {"text": "Contributed to code reviews, testing cycles, and Git version control in an Agile development environment.", "tags": ["git", "testing", "agile"]}
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Production-Grade RAG Question-Answering Microservice",
+      "stack": "FastAPI, OpenAI API, ChromaDB, Docker, PyTest",
+      "tags": ["rag", "genai", "llm", "openai", "chromadb", "fastapi", "docker", "pytest"],
+      "bullets": [
+        {"text": "Architected a production-ready Retrieval-Augmented Generation (RAG) backend service using FastAPI, OpenAI APIs (embeddings & chat completion), and ChromaDB for persistent vector storage.", "tags": ["rag", "fastapi", "openai", "chromadb", "vector", "genai"]},
+        {"text": "Engineered an asynchronous multi-format document ingestion pipeline (PDF, DOCX, TXT, Markdown) powered by FastAPI background tasks for non-blocking file processing.", "tags": ["fastapi", "etl", "async"]},
+        {"text": "Developed a dependency-free, custom recursive text chunker with boundary preservation, verified with complete unit-test coverage.", "tags": ["testing", "nlp"]},
+        {"text": "Implemented API-key authentication, per-client rate limiting, centralized error handling, and structured JSON logging with request-ID correlation.", "tags": ["rest", "fastapi"]},
+        {"text": "Containerized the service using a multi-stage Docker build and Docker Compose with persistent volume bindings; authored 12 unit/integration tests with mocked vector and OpenAI API calls.", "tags": ["docker", "pytest", "testing"]}
+      ]
+    },
+    {
+      "title": "Agentic Workflow & Tool-Calling Systems",
+      "stack": "LangChain, LangGraph, Python",
+      "tags": ["langchain", "langgraph", "agentic", "llm", "genai", "prompt", "python"],
+      "bullets": [
+        {"text": "Designed multi-step agentic workflows using LangGraph and LangChain, implementing conditional routing, state graphs, external tool calling, and prompt engineering strategies.", "tags": ["langgraph", "langchain", "agentic", "prompt", "llm"]}
+      ]
+    }
+  ],
+  "education": [
+    {"school": "Dnyanashri Institute of Engineering and Technology, Satara", "dates": "2018 – 2021", "degree": "Bachelor of Technology (Mechanical Engineering)"}
+  ],
+  "availability": "Immediate Joiner"
+}

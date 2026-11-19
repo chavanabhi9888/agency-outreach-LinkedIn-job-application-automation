@@ -1,0 +1,36 @@
+# Secrets / local config
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Runtime data & personal files
+data/*
+!data/master_resume.example.json
+logs/
+resumes/
+leads*.xlsx
+*.sqlite3
+*.pdf
+~$*.xlsx
+
+# Local scratch
+test.py
+reasons.py
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

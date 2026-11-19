@@ -1,0 +1,20 @@
+Dear $recipient_name,
+
+I hope you’re doing well.
+
+I’m reaching out to enquire about any suitable job openings at $company. I’m a Python Backend Developer with 3.5+ years of experience in Python, FastAPI, Django, REST APIs, PostgreSQL, Docker, Kafka, and automation. I also have hands-on project experience with GenAI and RAG using OpenAI APIs, LangChain, and LangGraph.
+
+I’m currently looking for new opportunities and am available to join immediately. If there are any vacancies matching my profile, I would be grateful if you could refer me or guide me toward the appropriate opportunity.
+
+I’m based in $city and open to onsite, hybrid, and remote opportunities.
+
+I’ve attached my resume for your reference. Please find my profile details below:
+
+LinkedIn: $linkedin
+GitHub: $github
+Phone: $phone
+
+Thank you for your time and support. I look forward to hearing from you.
+
+Best regards,
+$sender_name

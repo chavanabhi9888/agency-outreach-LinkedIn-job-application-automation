@@ -1,0 +1,19 @@
+Hello $greeting_name,
+
+I came across your LinkedIn post regarding the $job_title opening$company_phrase and wanted to express my interest.
+
+I'm $sender_name, a **Python Backend Developer with 3.5+ years of experience** in Python, FastAPI, Django, REST APIs, PostgreSQL, Kafka, Docker, and automation. I also have hands-on project experience with GenAI, RAG, OpenAI APIs, LangChain, and LangGraph.
+
+I'm an **Immediate Joiner based in $city** and would welcome the opportunity to discuss how my backend development and automation experience aligns with your requirements.
+
+$resume_line
+
+🔗 LinkedIn: $linkedin  
+💻 GitHub: $github
+
+Could you please review my profile and consider me for this opportunity? I'd be happy to attend an interview at your convenience.
+
+Thank you for your time and consideration.
+
+Best regards,  
+$sender_name

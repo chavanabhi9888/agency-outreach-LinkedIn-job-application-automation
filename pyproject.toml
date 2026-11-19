@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agency-outreach"
+version = "1.0.0"
+description = "Parse a recruitment-agency contact PDF and send personalised resume emails; generate WhatsApp click-to-chat queue."
+requires-python = ">=3.10"
+dependencies = ["pdfplumber>=0.10", "python-dotenv>=1.0", "openpyxl>=3.1", "reportlab>=4.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+agency-outreach = "agency_outreach.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
